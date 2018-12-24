@@ -1,0 +1,266 @@
+<!-- mailchimp -->
+
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/base/reset.css" />
+	<link rel="stylesheet" href="../css/src/mailchimp_all.css" />
+	<link rel="stylesheet" href="../fontawesome5/css/all.css" />
+	<!--favicon-->
+	<link rel="apple-touch-icon" href="../img/devine-logo.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.jpg" />
+	<title>Mailchimp</title>
+</head>
+
+<body>
+	<div id="wrap">
+		<nav class="feedback">
+			<a href="#"></a>
+		</nav>
+		<section class="modal">
+			<div class="modalW">
+				<div class="modalClose">
+					<a href="#" >x</a>
+				</div>
+				
+				<h2></h2>
+				<ul class="modalUl">
+					<li>
+						<dl><a href="#">
+								<div></div>
+								<dt>Specific Feedback</dt>
+								<dd>Give feedback on a specific part of this page</dd>
+							</a></dl>
+					</li>
+					<li>
+						<dl><a href="#">
+								<div></div>
+								<dt>Overall feedback</dt>
+								<dd>Give general feedback on the website</dd>
+							</a></dl>
+					</li>
+					<li>
+						<dl><a href="#">
+								<div></div>
+								<dt>Contact us</dt>
+								<dd>Wiew guides and tutorials or get in touch through our contact form</dd>
+							</a></dl>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<div class="open">
+		<a class="open-button" onclick="openForm()">Chat</a>
+		</div>
+		<div class="chat-popup" id="myForm">
+  		<form action="/action_page.php" class="form-container">
+				<label for="msg">Message</label>
+    		<textarea placeholder="Please type message here.." name="msg" required></textarea>
+				<button type="submit" class="btn">Send</button>
+    		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  		</form>
+		</div>
+
+		<header class="headBox">
+			<h1>
+				<span class="hidden">logo
+				<a href="#">
+				</a>
+			</span>
+			</h1>
+			<div class="ui-menu">
+				<span class="ui-menu-content">
+					<i class="ui-menu-line ui-menu-line1"></i>
+					<i class="ui-menu-line ui-menu-line2"></i>
+					<i class="ui-menu-line ui-menu-line3"></i>
+				</span>
+			</div>
+			<ul class="gnb">
+				<li class="gnbLi">
+					<a href="#">Why Mailchimp?</a>
+				</li>
+				<li class="gnbLi">
+					<a href="#">What You Can Do</a>
+					<ol class="sub">
+						<li><a href="#">Overview</a></li>
+						<li><a href="#">Create</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Automate</a></li>
+						<li><a href="#">Optimize</a></li>
+					</ol>
+				</li>
+				<li class="gnbLi">
+					<a href="#">Pricing</a>
+				</li>
+				<li class="gnbLi">
+					<a href="#">Resources</a>
+					<ol class="sub">
+						<li><a href="#">Overview</a></li>
+						<li><a href="#">Mailchimp 101</a></li>
+						<li><a href="#">Marketing Tips</a></li>
+						<li><a href="#">Success Stories</a></li>
+						<li><a href="#">Guide and Tutorial</a></li>
+					</ol>
+			</ul>
+			<ul class="gnbActions">
+				<li class="search"><a href="#">
+					<i class="fas fa-search"></i>
+				</a></li>
+				<li class="logIn"><a href="#">Log in</a></li>
+				<li class="signUp"><a href="#">Sign Up Free</a></li>
+			</ul>
+		</header>
+		<section class="introBox">
+			<div class="introLayout">
+				<h2>Your business was<br/> born for this</h2>
+				<p>Become the brand you want to be with<br/> smarter marketing built for big things</p>
+				<button type="button" class="signUp1">Sign Up Free</button>
+			</div>
+		</section>
+		<section class="advantageBox">
+			<h2>What you can do with<br/>Mailchimp</h2>
+			<ul class="advantage">
+				<li>
+					<dl>
+						<div></div>
+						<dt>Create unique campaigns</dt>
+						<dd>Get the word out with email, social ads, and more.</dd>
+						<a href="#">Learn more</a>
+					</dl>	
+				</li>
+				<li>
+					<dl>
+						<div></div>
+						<dt>Connect your favorite tools</dt>
+						<dd>Unlock new features with the tools you already use.</dd>
+						<a href="#">Learn more</a>
+					</dl>	
+				</li>
+				<li>
+					<dl>
+						<div></div>
+						<dt>Automate your busy work</dt>
+						<dd>Make your life easier with automation.</dd>
+						<a href="#">Learn more</a>
+					</dl>	
+				</li>
+				<li>
+					<dl>
+						<div></div>
+						<dt>Optimize all your efforts</dt>
+						<dd>You can get a little smarter with every campaign.</dd>
+						<a href="#">Learn more</a>
+					</dl>	
+				</li>
+			</ul>
+		</section>
+		<section class="quoteBox">
+			<div class="quoteWrap">
+			<ul class="quoteImg">
+				<li class="quoteImg1"></li>
+				<li class="quoteImg2"></li>
+			</ul>
+			<div class="quoteComment">
+			<h2>“You grow with it, and features you didn’t know would be useful are ready when you are.”</h2>
+			<p>Steven Carse, co-founder, King of Pops</p>
+			</div>
+			</div>
+		</section>
+		<section class="benefitBox">
+			<ul>
+				<li>
+					<a href="#">
+					<dl>
+						<div></div>
+						<dt>Take Your Business Online in Minutes</dt>
+						<dd>Connect Square payments to Mailchimp and sell directly from your landing pages.</dd>
+					</dl>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<dl>
+						<div></div>
+						<dt>3 Ways Postcards Can Help Your Brand Stand Out</dt>
+						<dd>How printed postcards work with your online marketing to close the distance between you and your customers.</dd>
+					</dl>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<dl>
+						<div></div>
+						<dt>Our Favorite Holiday Recipes for Growing Your Business</dt>
+						<dd>Increase sales, drive traffic, and grow your list when you combine features that work together.</dd>
+					</dl>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="companyBox">
+			<h2>You’ll be in good company</h2>
+			<ul>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</section>
+		<section class="adBox">
+			<h2>It’s easy to get started</h2>
+			<p>And it’s free. Two things everyone loves.</p>
+			<button type="button">Sign Up Free</button>
+		</section>
+		<footer class="footBox">
+			<h2></h2>
+			<div class="fnbWrap">
+			<ul class="fnb">
+				<li><a href="#">Our Story</a></li>
+				<li><a href="#">Mobile App</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Help</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Agencies</a></li>
+				<li><a href="#">Partner Program</a></li>
+				<li><a href="#">Experts Directory</a></li>
+				<li><a href="#">Status</a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Security</a></li>
+			</ul>
+			</div>
+			<ul class="sns">
+				<li><a href="#">
+					<i class="fab fa-facebook"></i>
+				</a></li>
+				<li><a href="#">
+					<i class="fab fa-twitter"></i>
+				</a></li>
+				<li><a href="#">
+					<i class="fab fa-instagram"></i>
+				</a></li>
+				<li><a href="#">
+					<i class="fab fa-linkedin"></i>
+				</a></li>
+				<li><a href="#">
+					<i class="fab fa-youtube"></i>
+				</a></li>
+			</ul>
+			<ul class="os">
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+			<address>©2001-2018 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. Mac App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc. Privacy & Terms</address>
+		</footer>
+</div>
+		
+</body>
+<script src="../js/base/jquery-3.3.1.min.js"></script>
+<script src="../js/base/jquery-ui.min.js"></script>
+<script src="../js/src/mailchimp.js"></script>
+

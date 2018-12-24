@@ -1,0 +1,73 @@
+.quoteBox{width: 100%;
+background-color: #efefef;
+/*padding:150px 0 0 200px;*/
+/*위 우 아래 좌*/
+box-sizing: border-box;}
+.quoteWrap{margin: auto;
+height: 100%;
+box-sizing: border-box;}
+.quoteComment>h2{
+font-weight: bold;}
+.quoteComment>p{font-size:15px;
+box-sizing: border-box;}
+
+.quoteImg{
+box-sizing: border-box;
+width: 50%; height: 580px;}
+.quoteImg1{float:left;
+height: 500px;
+background-image: url(../../img/download-1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;}
+.quoteImg2{float:left;
+width: 30%;height: 220px;
+background-image: url(../../img/download-5.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;}
+
+@media screen and (min-width:1200px) {
+.quoteBox{height: 800px;}
+.quoteWrap{padding-top: 200px;
+width: 1200px;}
+.quoteImg{width: 50%;
+padding:0 0 0 100px;}
+.quoteImg1{width: 70%;}
+.quoteComment{float:left;
+width: 50%;
+height: 100%;}
+.quoteImg{float:right;}
+.quoteComment>h2{font-size:60px;}
+.quoteComment>p{padding-top: 20px;}
+}
+
+@media screen and (min-width:600px) and (max-width:1200px) {
+.quoteBox{height: 1000px;}
+.quoteWrap{width: 100%;}
+.quoteImg{width: 100%;
+padding:100px 0 0 0;}
+.quoteImg1{width: 50%;}
+.quoteComment{width: 100%;
+height: 30%;
+padding: 50px}
+.quoteComment>h2{font-size:40px;
+padding: 50px;}
+.quoteComment>p{padding: 10px 50px 0px 50px;}
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+.quoteBox{height: 1000px;}
+.quoteWrap{width: 100%;}
+.quoteImg{width: 100%;
+padding:100px 60px 0px 60px;}
+.quoteImg1{width: 50%;}
+.quoteComment{width: 100%;
+height: 30%;
+padding: 0 50px}
+.quoteComment>h2{font-size:32px;
+padding: 20px 50px 50px 0;}
+.quoteComment>p{padding: 10px 20px 0px 20px;}
+}

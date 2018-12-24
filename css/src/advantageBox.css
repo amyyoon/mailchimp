@@ -1,0 +1,93 @@
+
+.advantageBox{padding-top: 100px;
+box-sizing: border-box;
+width: 100%;
+background-color: #fff}
+.advantageBox>h2{text-align: center;
+font-weight: bold;}
+
+.advantage{
+box-sizing: border-box;
+width: 100%;}
+
+.advantage>li>dl{width: 100%;height: 100%;}
+.advantage>li>dl>div{width: 100px;height: 100px;
+margin: auto;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;}
+.advantage>li:nth-of-type(1)>dl>div{
+background-image: url(../../img/download-4.png);
+}
+.advantage>li:nth-of-type(2)>dl>div{
+background-image: url(../../img/download-8.png);
+}
+.advantage>li:nth-of-type(3)>dl>div{
+background-image: url(../../img/download-10.png);
+}
+.advantage>li:nth-of-type(4)>dl>div{
+background-image: url(../../img/download-3.png);
+}
+
+.advantage>li>dl>dt{
+padding:20px 40px 20px 40px;
+box-sizing: border-box;
+font-size: 20px;
+margin: auto;
+text-align: center;
+font-weight: bold;}
+.advantage>li>dl>dd{font-size: 16px;
+margin: auto;
+padding:0 40px 0 40px;
+/*padding: 위 우 아래 좌*/
+box-sizing: border-box;
+text-align: center;}
+.advantage>li>dl>a{display: block;
+padding-top:30px;
+box-sizing: border-box;
+color:#007c89;
+font-size: 15px;
+font-weight: bold;
+text-align: center;}
+
+
+@media screen and (min-width:1200px) {
+.advantageBox{height: 800px;}
+.advantage{padding:150px 150px 0 150px;
+height: 500px;}
+.advantage>li{
+float:left;
+width: 22%;height: 100%;
+margin-right: 3%}
+.advantage>li:last-child{margin-right: 0}
+}
+
+@media screen and (min-width:600px) and (max-width:1200px) {
+.advantageBox{height: 1000px;}
+.advantage{padding:50px 50px 0 50px;
+height: 800px;}
+.advantageBox>h2{
+font-size: 45px;}
+.advantage>li{
+float:left;
+width: 48%;height: 48%;
+margin-right: 2%;
+margin-bottom: 4%;}
+.advantage>li:last-child{margin-right: 0;
+margin-bottom: 0;}
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+.advantageBox{height: 1700px;}
+.advantage{padding:50px 50px 0 50px;
+height: 800px;}
+.advantageBox>h2{
+font-size: 32px;}
+.advantage>li{
+width: 100%;height: 48%;
+margin-right: 2%;
+margin-bottom: 4%;}
+.advantage>li:last-child{margin-right: 0;
+margin-bottom: 0;}
+}

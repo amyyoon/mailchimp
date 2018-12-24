@@ -1,0 +1,106 @@
+
+.footBox{padding-top: 50px;
+box-sizing: border-box;
+width: 100%;
+height: 600px;
+background-color:#ffe01b; }
+.footBox>h2{margin: auto;
+width: 50px;height: 50px;
+background-image: url(../../img/logo.png);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;
+}
+
+.fnbWrap{
+margin: auto;
+}
+.fnb{margin: auto;
+flex-wrap:wrap;
+display:flex;
+justify-content:center;}
+.fnb>li{/*float:left;*/
+width: 80px;height: 50px;
+margin-right: 5px;}
+.fnb>li>a{display: block;
+width: 100%;height: 100%;
+font-size: 12px;
+font-weight: 400;
+text-align: center;
+line-height: 50px;}
+.fnb>li:nth-of-type(7){width: 120px;}
+.fnb>li:nth-of-type(8){width: 120px;}
+.fnb>li>a:hover,
+.fnb>li>a:focus{
+color:#007c89;
+}
+
+.sns{margin-top: 100px;
+margin: auto;
+width: 250px;height: 30px;}
+.sns>li{float:left;
+width: 30px;height: 100%;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;}
+.sns>li>a{display: block;
+width: 100%;height: 100%;
+text-align: center;}
+
+.os{margin-top: 60px;
+width: 380px;
+margin: auto;
+height: 140px;}
+.os>li{float:left;
+width: 160px;height: 100%;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;}
+.os>li>a{display: block;
+width: 100%;
+height: 100%;}
+.os>li:nth-of-type(1){
+background-image: url(../../img/download.svg);
+}
+.os>li:nth-of-type(2){
+background-image: url(../../img/download-5.svg);
+}
+
+.footBox>address{
+font-size: 12px;
+box-sizing: border-box;
+text-align: center;
+}
+
+@media screen and (min-width:1141px){
+.fnbWrap{width: 75%;}
+.footBox{height: 600px;}
+.fnb{flex-wrap:wrap;
+display:flex;
+margin-bottom: 50px;
+margin-top: 50px;}
+.footBox>address{padding:0 100px 0 100px;}
+}
+
+@media screen and (min-width:600px) and (max-width:1140px) {
+.fnbWrap{width: 75%;}
+.footBox{height: 600px;}
+.fnb{flex-wrap:wrap;
+display:flex;
+margin-bottom: 50px;
+margin-top: 50px;}
+.footBox>address{padding:0 100px 0 100px;}
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+.fnbWrap{width: 90%;}
+.footBox{height: 680px;}
+.fnb{margin-bottom: 10px;
+margin-top: 10px;}
+.footBox>address{padding:0 20px 0 20px;}
+}

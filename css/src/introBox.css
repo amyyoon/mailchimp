@@ -1,0 +1,68 @@
+.introBox{width: 100%;height: 660px;
+box-sizing: border-box;
+background-color: #ffe01b;
+}
+.introLayout{
+box-sizing: border-box;
+margin: auto;
+width: 100%;height: 700px;
+background-image: url(../../img/MC_HPAnimation_Gif_OldLegs_NoTrans_V2.gif);
+background-repeat: no-repeat;
+background-size: 30%;
+background-position: 90% 50%;
+}
+.introLayout>h2{
+font-weight: bold;}
+.introLayout>p{
+padding-top: 30px;
+box-sizing: border-box;
+font-weight: bold;}
+.signUp1{display: block;
+margin-top: 30px;
+width: 200px;
+height: 60px;
+color:#fff;
+font-size: 15px;
+font-weight: bold;
+background-color: #007c89;
+}
+
+@media screen and (min-width:1200px) {
+.introBox{padding-left:120px;}
+.introLayout{padding-top:100px;}
+.introLayout>h2{
+font-size: 60px;}
+.introLayout>p{
+font-size: 22px;}
+}
+
+@media screen and (min-width:600px) and (max-width:1200px) {
+.introBox{margin: auto;}
+.introLayout{margin: auto;
+padding-top:180px;}
+.introLayout>h2{
+font-size: 45px;
+text-align: center;}
+.introLayout>p{
+font-size: 30px;
+text-align: center;
+padding-bottom: 50px;
+box-sizing: border-box;}
+.signUp1{margin: auto;}
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+.introBox{margin: auto;}
+.introLayout{margin: auto;
+padding-top:180px;}
+.introLayout>h2{
+font-size: 32px;
+text-align: center;}
+.introLayout>p{
+font-size: 17px;
+text-align: center;
+padding-bottom: 50px;
+box-sizing: border-box;}
+.signUp1{margin: auto;}
+}
+
